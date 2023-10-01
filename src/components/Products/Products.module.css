@@ -1,0 +1,57 @@
+.ProductsContainer {
+  width: 27%;
+}
+
+.ProductsCard {
+  line-height: 2;
+}
+
+.imgContainer {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.ProductsImg {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  box-shadow: 3px 5px #e9ba23;
+}
+
+.ProductsInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.ProductsInfo h4 {
+  font-size: initial;
+}
+
+.ProductsButton {
+  font-size: 1rem;
+  border: none;
+  background: #e31837;
+  color: #fff;
+  transition: 0.2s ease-out;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.ProductsButton a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.ProductsButton:hover {
+  background: #ffc500;
+  transition: 0.2s ease-out;
+  cursor: pointer;
+  color: #000;
+}

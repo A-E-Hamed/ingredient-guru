@@ -1,0 +1,12 @@
+.form-select {
+    display: block;
+    margin: 30px auto 0;
+    width: 30%;
+  }
+
+  .custom-dropdown {
+    max-height: calc(2.25rem * 5) !important; /* Displaying 5 options at a time */
+    overflow-y: auto !important;
+    
+    
+  }

@@ -1,0 +1,74 @@
+.container {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
+    url("../../images/searchImage.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  display: flow-root;
+  text-align: center;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    color: rgb(139, 134, 125);
+    text-align: center;
+   
+}
+
+.heading h2{
+    width: 40%;
+}
+
+.form {
+ width: 60%;
+  display: inline-block;
+  margin-top: 4rem;
+}
+
+.form-select {
+  display: block;
+  margin: 30px auto 0;
+  width: 30%;
+}
+
+.form-control {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.badge {
+  font-size: 1.2rem;
+  font-family: initial;
+  margin: 3px;
+  margin-top: 0.5rem;
+}
+
+.error{
+color: red;
+margin-top: 30px;
+}
+
+
+
+.navLink {
+	color: #fff;
+	font-size: 2rem;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	cursor: pointer;
+  justify-content: center;
+  padding-top: 1.2rem;
+  font-weight: 700;
+  }
+  
+  @media screen and (max-width: 400px) {
+	.navLink {
+	  position: absolute;
+	  top: 10px;
+	  left: 25px;
+	}
+  }

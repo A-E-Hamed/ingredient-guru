@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem calc((100vw - 1300px) / 2);
+  width: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
+    url("../../images/desertCover.jpg");
+  background-position: center;
+  background-size: cover;
+  color: wheat;
+}
